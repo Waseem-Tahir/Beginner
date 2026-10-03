@@ -10,9 +10,11 @@
 # a = input("Enter your name if you see it to be in reverse order ? ")
 # print(a[14::-1])
 # _______________________________________________
+
                 # this program take a staring and 
                  # print total length also print one charater len that user input
-print("Note that the ',' is must type b/w name and char ")                
-a,b =input("Enter your name and the type one char also that you want to see it how many times it come ? ").split(",")
+# print("Note that the ',' is must type b/w name and char ")                
+# a,b =input("Enter your name and the type one char also that you want to see it how many times it come ? ").split(",")
 
-print(f"your name length is {len(a)} and the character length is {a.count(b)}")
+# print(f"your name length is {len(a)} and the character length is {a.count(b)}")
+# ________________________________________________
