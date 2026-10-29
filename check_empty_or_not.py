@@ -1,4 +1,4 @@
-# check emptly or not
+# check empty or not
 # this in a small concept to understand the complexity of program
 a=input("enter your name: ")
 if a:
