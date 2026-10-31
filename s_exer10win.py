@@ -2,6 +2,7 @@
 import random               # # import random mean it import no and bytes.
 win=random.randint(1,100)     # # randint is used to change the correct no frequently likely used in game.
 i=0             # # varieble i is essential on this time b/s while doesn't declared i at varieble direct like in for loop.
+guess = 1
 print("hint ( type no is b/w 1 to 100 )")
 while i!=win:
   
@@ -11,9 +12,9 @@ while i!=win:
   elif i>win:
      print("enter high no")
   elif i==win:
-     print(f"you win {win} is a winning no")
+     print(f"you win {win} is a winning no. you guess the no in {guess} time")
      w=win
      break
-     
-
+  guess += 1
+  print("guess again")
     
