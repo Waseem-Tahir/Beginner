@@ -1,20 +1,6 @@
 # exercise for function in list
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 print("                        Hi how are you what your choice to find sq no.")
 print("                    To find sq of no's by range type 1 , by random type 2")
 z=int(input("                                   choice no: "))
