@@ -5,7 +5,7 @@ n=int(input("enter the fibonacci no: "))
 if n==1:
     print(a)
 elif n==2:
-    print(a, b)
+    print(a,b)
 else:
     print(a,b,end=" ")             # this program is small difficult intesresting but still incomplete.
     for i in range(1,n-2):
