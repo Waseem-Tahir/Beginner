@@ -4,9 +4,11 @@
 # name,character=input("enter the name and count charcater : ").split(",")
 # print(f"length of name is {len(name)} length of character is {name.strip().lower().count(character.strip().lower())}")
 
-name="     hellow      "
+name="  hellow  "
 print(name.lstrip())
 print(name.rstrip())
 print(name.strip())
 
-print(name.replace(" ","")+"...")
+print(name.replace(" ","*")+"...")
+print(name.replace("ll","LL"))
+print(name.replace("ll","**")+".")
