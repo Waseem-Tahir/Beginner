@@ -26,7 +26,6 @@
 liste=[1,2,3,4,5]
 listadd=[]
 def fun_list(l):
-    
     for i in l:
      listadd.append(-i)
     return listadd
