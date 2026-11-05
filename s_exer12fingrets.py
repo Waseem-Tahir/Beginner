@@ -28,9 +28,11 @@
 #     if l>no3:                               # it need to modify later
 #         return l
 #     return no3
-# n1=int(input("enter your first no: "))
-# n2=int(input("enter your second no: "))
-# n3=int(input("ener your third no: "))
+print("       you can splited the no by , only")
+n1,n2,n3=input("enter your three no: ").split(",")
+n2=int(n2)
+n3=int(n3)
+n1=int(n1)
 # def greatest(n1,n2,n3):
 #     # fun1(n1,n2)
 #     l=fun1
@@ -53,7 +55,7 @@ def fun3(n1,n2,n3):
     d=fun1(n1,n2)
     return fun1(fun1(n1,n2),n3)
     
-print(fun3(16,34,15))
+print(f"     greator no is   {fun3(n1,n2,n3)}  ")
 
 
 
