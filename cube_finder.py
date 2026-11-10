@@ -2,7 +2,7 @@
 d=dict()
 c=0
 def cubefin(n):
-    for i in range(1,n):
+    for i in range(1,n+1):
       c=i*i*i 
       d[i]=c
     return d
