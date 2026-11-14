@@ -5,21 +5,21 @@
 # list = [i*i i in range(1,10)]
 # print(list)
 
-neg=[]
-negative_list=[1,2,3,4,5]
-for i in negative_list:
-    neg.append(-i)
-print(neg)
+# neg=[]
+# negative_list=[1,2,3,4,5]
+# for i in negative_list:
+#     neg.append(-i)
+# print(neg)
 
-# negative_list2=[-j j in range(1,10) ]
-# print(negative_list2)
+negative_list2=[-j for j in range(1,10) ]
+print(negative_list2)                      
 
 indlistcom=['Waseem','Maisum','Adil']
-indstore=[]
-for n in indlistcom:
-    indstore.append(n[0])
-print(indstore)
+# indstore=[]
+# for n in indlistcom:
+#     indstore.append(n[0])
+# print(indstore)
 
-# indlistcomm= [n[0] n in indlistcom]
-# print(indlistcomm)
+indlistcomm= [n[0] for n in indlistcom]
+print(indlistcomm)
 
