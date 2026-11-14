@@ -21,8 +21,8 @@ print(d3)
 print(popped_items)
 
 print(d2.get('pst'))  # in this line of code pst value is detected using .get() method
-
-if d3.get('age'):
+                    # get method is used to access a key in the dictionary.
+if d3.get('age'):     
   print("yes")
 else:
   print("no")
