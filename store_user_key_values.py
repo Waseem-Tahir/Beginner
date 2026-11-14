@@ -14,9 +14,6 @@ for i in user:
       dic[i]=s
     # print(i)
     
-     
-    
-        
     
 print(dic)
 print(type(dic))
