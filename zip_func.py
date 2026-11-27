@@ -6,7 +6,7 @@ list3=['apple','mango','banana']
 listzl=list(zip(list1,list2))
 listzd=dict(zip(list1,list2))
 listzt=tuple(zip(list1,list2,list3))
-# listzd2=dict(zip(list1,list2,list3))  # --> it is wrong because for dict max include two list for zip only.
+# listzd2=dict(zip(list1,list2,list3)) # --> it is wrong generate error because for dict max include two list for zip only.
 print(listzl)
 print(listzd)
 print(listzt)
